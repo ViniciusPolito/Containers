@@ -1,5 +1,7 @@
 # Containers
 
+Esse repositório tem como objetivo destacar pontos principais sobre containers.
+
 ## Docker
 
 ### Como instalar docker no Windows? 
