@@ -33,6 +33,9 @@ Remove one or more containers
 Pause all processes within one or more containers
 `docker pause`
 
+Unpause all processes within one or more containers
+`docker unpause`
+
 List containers
 `docker ps` 
 
