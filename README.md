@@ -36,6 +36,9 @@ Pause all processes within one or more containers
 Unpause all processes within one or more containers
 `docker unpause`
 
+List images
+`docker images`
+
 List containers
 `docker ps` 
 
