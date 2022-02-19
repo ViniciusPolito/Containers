@@ -27,3 +27,5 @@ Start one or more stopped containers
 List containers
 `docker ps` 
 
+Run a command in a running container
+`docker exec`
