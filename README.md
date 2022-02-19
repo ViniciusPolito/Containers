@@ -16,7 +16,7 @@ https://docs.docker.com/desktop/windows/install/
 
 https://docs.docker.com/engine/install/ubuntu/
 
-### Comandos
+### [Comandos](https://docs.docker.com/engine/reference/commandline/docker/)
 
 Run a command in a new container
 `docker run`
@@ -26,6 +26,9 @@ Start one or more stopped containers
 
 Stop one or more running containers
 `docker stop`
+
+Remove one or more containers
+`docker rm`
 
 Pause all processes within one or more containers
 `docker pause`
