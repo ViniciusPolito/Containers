@@ -27,6 +27,9 @@ Start one or more stopped containers
 Stop one or more running containers
 `docker stop`
 
+Pause all processes within one or more containers
+`docker pause`
+
 List containers
 `docker ps` 
 
