@@ -160,6 +160,17 @@ ENTRYPOINT npm start # Executa quando imagem estiver criada
 </pre>
 
 <pre>
+FROM Node:14 
+WORKDIR /app-node
+ARG PORT_BUILD=6000
+ENV PORT=$PORT_BUILD
+EXPOSE $PORT_BUILD
+COPY . . 
+RUN npm install 
+ENTRYPOINT npm start
+</pre>
+
+<pre>
 # syntax=docker/dockerfile:1
 FROM ubuntu:18.04
 COPY . /app
