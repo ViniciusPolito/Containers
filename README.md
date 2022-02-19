@@ -137,8 +137,10 @@ https://docs.docker.com/engine/install/ubuntu/
 Para criação de uma imagem, vamos utilizar o [Dockerfile](https://docs.docker.com/engine/reference/builder/#from) <br />
 Existem diferentes maneiras de criar um Dockerfile. Portantou mostrar alguns exemplos.
 
-`FROM Node:14 //Usa uma imagem base
+<pre>
+FROM Node:14 //Usa uma imagem base
 WORKDIR /app-node //Diz o diretório padrão
 COPY . . //Copia tudo da pasta onde o Dockerfile está e coloca no diretório padrão dentro da imagem
 RUN npm install //Executa comando quando imagem estiver sendo criada
-ENTRYPOINT npm start //Executa quando imagem estiver criada` 
+ENTRYPOINT npm start //Executa quando imagem estiver criada
+</pre>
