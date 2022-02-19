@@ -135,7 +135,21 @@ https://docs.docker.com/engine/install/ubuntu/
 ### Como criar uma imagem?
 
 Para criação de uma imagem, vamos utilizar o [Dockerfile](https://docs.docker.com/engine/reference/builder/#from) <br />
-Existem diferentes maneiras de criar um Dockerfile. Portantou mostrar alguns exemplos.
+Os Dockerfiles são criados através de um conjunto de instruções.
+
+`ADD`
+`COPY`
+`ENV`
+`EXPOSE`
+`FROM`
+`LABEL`
+`STOPSIGNAL`
+`USER`
+`VOLUME`
+`WORKDIR`
+`ONBUILD`
+
+Existem diferentes maneiras de criar um Dockerfile. Portanto mostrar alguns exemplos.
 
 <pre>
 FROM Node:14 # Usa uma imagem base
@@ -152,4 +166,3 @@ COPY . /app
 RUN make /app
 CMD python /app/app.py
 </pre>
-
