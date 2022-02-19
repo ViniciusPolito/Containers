@@ -19,6 +19,7 @@ https://docs.docker.com/engine/install/ubuntu/
 ### [Comandos](https://docs.docker.com/engine/reference/commandline/docker/)
 
 `docker attach`	Attach local standard input, output, and error streams to a running container
+
 `docker build`	Build an image from a Dockerfile
 `docker builder`	Manage builds
 `docker checkpoint`	Manage checkpoints
