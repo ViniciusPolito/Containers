@@ -15,3 +15,15 @@ https://docs.docker.com/desktop/windows/install/
 ### Como instalar docker no Ubuntu?
 
 https://docs.docker.com/engine/install/ubuntu/
+
+### Comandos
+
+Run a command in a new container
+`docker run`
+
+Start one or more stopped containers
+`docker start`
+
+List containers
+`docker ps` 
+
