@@ -24,6 +24,9 @@ Run a command in a new container
 Start one or more stopped containers
 `docker start`
 
+Stop one or more running containers
+`docker stop`
+
 List containers
 `docker ps` 
 
