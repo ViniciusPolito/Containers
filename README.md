@@ -132,6 +132,12 @@ https://docs.docker.com/engine/install/ubuntu/
 
 `docker wait`	Block until one or more containers stop, then print their exit codes
 
+### Comandos mais utilizados
+
+`docker ps -a` Lista containers em execução
+
+`docker container rm $(docker container ls –aq)` Remove todos os containers
+
 ### Como criar uma imagem?
 
 Para criação de uma imagem, vamos utilizar o [Dockerfile](https://docs.docker.com/engine/reference/builder/#from) <br />
