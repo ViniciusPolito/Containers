@@ -228,3 +228,7 @@ networks:
 </pre>
 
 ## Kubernetes
+
+O Kubernetes é responsável por criar e gerenciar um cluster com o intuito de manter nossa aplicação escalável.
+![aula1_video2_imagem5](https://user-images.githubusercontent.com/41132563/154862590-ed364bae-5221-4426-8d82-6249e7ec25ea.png)
+
