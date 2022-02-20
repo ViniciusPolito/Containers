@@ -185,3 +185,13 @@ COPY . /app
 RUN make /app
 CMD python /app/app.py
 </pre>
+
+### Como persistir arquivos no container?
+
+Existem 3 formas de persistir arquivos no Docker.
+
+`bind mounts`
+
+`volumes`
+
+`tmpfs`
