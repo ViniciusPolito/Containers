@@ -138,6 +138,8 @@ https://docs.docker.com/engine/install/ubuntu/
 
 `docker container rm $(docker container ls –aq)` Remove todos os containers
 
+`docker container rmi $(docker container ls –aq)` Remove todas as imagens
+
 ### Como criar uma imagem?
 
 Para criação de uma imagem, vamos utilizar o [Dockerfile](https://docs.docker.com/engine/reference/builder/#from) <br />
