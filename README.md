@@ -195,3 +195,9 @@ Existem 3 formas de persistir arquivos no Docker.
 [bind mounts](https://docs.docker.com/storage/bind-mounts/) dependem da estrutura de pastas do host
 
 [tmpfs](https://docs.docker.com/storage/tmpfs/) armazenam dados em memória volátil
+
+### Docker Compose
+
+É uma solução para gerenciar vários containers, utilizando o arquivo docker-compose.yml
+
+
