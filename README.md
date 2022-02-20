@@ -190,8 +190,8 @@ CMD python /app/app.py
 
 Existem 3 formas de persistir arquivos no Docker.
 
-[volumes](https://docs.docker.com/storage/volumes/) Esse é o mais usual
+[volumes](https://docs.docker.com/storage/volumes/) são gerenciados pelo Docker
 
-[bind mounts](https://docs.docker.com/storage/bind-mounts/)
+[bind mounts](https://docs.docker.com/storage/bind-mounts/) dependem da estrutura de pastas do host
 
-[tmpfs](https://docs.docker.com/storage/tmpfs/)
+[tmpfs](https://docs.docker.com/storage/tmpfs/) armazenam dados em memória volátil
