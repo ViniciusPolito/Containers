@@ -190,7 +190,7 @@ CMD python /app/app.py
 
 Existem 3 formas de persistir arquivos no Docker.
 
-[volumes](https://docs.docker.com/storage/volumes/)
+[volumes](https://docs.docker.com/storage/volumes/) Esse é o mais usual
 
 [bind mounts](https://docs.docker.com/storage/bind-mounts/)
 
