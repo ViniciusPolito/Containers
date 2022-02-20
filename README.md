@@ -198,6 +198,7 @@ Existem 3 formas de persistir arquivos no Docker.
 
 ### Docker Compose
 
-É uma solução para gerenciar vários containers, utilizando o arquivo docker-compose.yml
+O Docker Compose resolve o problema de executar múltiplos containers de uma só vez e de maneira coordenada, evitando executar cada comando de execução individualmente.
+Ele é executado através do arquivo `docker-compose.yml`
 
 
