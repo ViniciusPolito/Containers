@@ -202,6 +202,7 @@ O Docker Compose resolve o problema de executar múltiplos containers de uma só
 Ele é executado através do arquivo `docker-compose.yml`
 
 Para executar, utilize `docker compose up`
+
 Para parar, utilize `docker compose down`
 
 Segue um exemplo de um arquivo Docker Compose
