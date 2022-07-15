@@ -201,6 +201,9 @@ Existem 3 formas de persistir arquivos no Docker.
 O Docker Compose resolve o problema de executar múltiplos containers de uma só vez e de maneira coordenada, evitando executar cada comando de execução individualmente.
 Ele é executado através do arquivo `docker-compose.yml`
 
+Para executar, utilize `docker compose up`
+Para parar, utilize `docker compose down`
+
 Segue um exemplo de um arquivo Docker Compose
 
 <pre>
